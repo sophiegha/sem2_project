@@ -20,7 +20,7 @@ function displayMessage() {
   var messageElement = document.getElementById("message");
 
 
-  messageElement.textContent = "Hello, " + answer + "!";
+  messageElement.textContent = "The answer is, " + answer + "!";
   return answerInput
 }
 
